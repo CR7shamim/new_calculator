@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #a0ab99;
+}
+
+#calculatorBody{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 550px;
+    outline: none;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+table{
+   
+    background-color: #fff; 
+    box-shadow:rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    border-collapse: collapse;
+}
+
+td{
+    text-align: center;
+    color: #fff1;
+    border: 2px solid #191919;
+
+}
+
+input[type="button"] {
+    width: 100px;
+    height: 80px;
+    color: #fff;
+    background-color: #000000;
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    border-radius: 10%;
+
+}
+
+input[type="button"]:hover {
+    background-color: #19d;
+    outline: none;
+}
+
+input[type="text"] {
+    width: 340x;
+    height: 90px;
+    text-align: right;
+    margin: 10px;
+    padding: 2px;
+    outline: none;
+    border: none;
+    font-size: 30px;
+}
+
+#bgColor{
+    background-color: #7f7f0e;
+}
+
+#color{
+    color: #ff0000;
+}
+
+#box{
+    width: 150px;
+    height: 40px;
+    border: 2px solid #191919;
+    border-left: none;
+    border-top: none;
+}
+
+h2{
+    color: #ff0000;
+}
